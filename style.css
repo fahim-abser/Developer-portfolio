@@ -9,15 +9,20 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .half-width img {
-    width: 70%;
+    width: 90%;
 }
 
 .link-button {
@@ -32,4 +37,10 @@ section {
 .bg-image {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
